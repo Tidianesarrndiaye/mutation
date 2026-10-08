@@ -30,12 +30,25 @@ Le problème se pose donc dans plusieurs sens :
 
 D'où l'idée d'un **langage pivot** commun, compris par tous les profils.
 
-## Hypothèses de langage pivot (voir [03](03-approche.md))
+## Précision sur le périmètre
 
-1. **Pictogrammes / symboles** (communication alternative et améliorée, CAA).
-2. **Texte + voix de synthèse + sous-titres** (reconnaissance et synthèse vocales).
-3. **Langue des signes** (reconnaissance et/ou avatar signeur).
-4. **Combinaison** de ces modes, avec un langage pivot interne.
+Le projet concerne **uniquement** :
+
+- les personnes **sourdes** (non-entendantes) ;
+- les personnes **non parlantes** (qui entendent en général).
+
+Il ne concerne pas les personnes non voyantes.
+
+Par « langage », on entend ce que les humains utilisent pour communiquer **avec le corps** : gestes, mains, visage, comme les langues des signes. Il ne s'agit pas de « lettres » ni d'écriture.
+
+## Deux voies envisagées
+
+1. **Inventer un nouveau langage gestuel**, plus simple que les langues des signes, pensé pour ces deux publics.
+2. **Utiliser les langues des signes existantes** (la bibliographie est abondante) et ajouter un **interprète IA** dans les deux sens :
+   - **Signes → langue vocale** : une caméra filme les signes, l'IA les traduit en texte et/ou voix pour les entendants (et pour les non-parlants, qui entendent).
+   - **Parole → signes** : l'IA transcrit la parole et la fait signer par un **avatar 3D** pour les sourds.
+
+Voir [03 – Approche](03-approche.md) pour la comparaison.
 
 ## Situations d'usage à couvrir (exemples)
 

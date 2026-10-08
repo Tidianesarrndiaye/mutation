@@ -2,31 +2,32 @@
 
 À trancher ensemble avant de passer au technique.
 
-## Sur le public et le besoin
+## Choix de la voie
 
-1. Qui sont les utilisateurs principaux : sourds, non parlants, sourds **et** non parlants, entourage ? Dans quelle proportion ?
-2. Dans quel pays / quelle région ? Quelle(s) langue(s) des signes et langue(s) vocales ?
-3. Les utilisateurs savent-ils lire et écrire ? Dans quelle langue ?
-4. Quels scénarios prioritaires : quotidien, école, santé, urgences ?
+1. Voie 1 (nouveau langage), voie 2 (langue des signes existante + IA) ou hybride ? Ma proposition : démarrer par la voie 2 sur un petit vocabulaire.
+2. Si voie 2 : **quelle langue des signes** (LSF, ASL, langue des signes sénégalaise ou d'un autre pays, etc.) ?
+3. Si voie 1 : qui l'enseignerait, et à qui ?
 
-## Sur le « langage commun »
+## Public et contexte
 
-5. Que veut dire « plus parlant que les signes » pour vous : pictogrammes, émojis animés, langage inventé, signes enrichis, autre ?
-6. Faut-il créer un nouveau langage, ou s'appuyer sur un existant (ARASAAC, Makaton, Bliss…) ?
-7. Le langage pivot doit-il être compris sans apprentissage, ou peut-il s'enseigner ?
+4. Quel pays, quelle région ? Quels interlocuteurs : famille, école, santé, public ?
+5. Les utilisateurs savent-ils déjà signer ? Lire ?
+6. Peut-on rencontrer des personnes sourdes, des non-parlants ou des interprètes (associations, écoles spécialisées) ?
 
-## Sur le projet
+## Produit
 
-8. Quelles ressources : seul, équipe, partenaires (associations, écoles, universités) ?
-9. Accès à des utilisateurs pour des tests ?
-10. Modèle : gratuit, open source, associatif, commercial ?
-11. Plateformes visées : mobile (Android / iOS), web, tablette ? Matériel contraint ?
-12. Connectivité : l'application doit-elle fonctionner hors ligne ?
+7. Sens prioritaire : signes → voix, ou parole → avatar ?
+8. Plateformes : mobile, web, hors ligne ?
+9. Langue vocale de sortie : français, wolof, autre ?
+
+## Projet
+
+10. Ressources : seul, équipe, partenaires ?
+11. Modèle : open source, associatif, commercial ?
 
 ## Prochaines étapes suggérées
 
-- [ ] Valider ou corriger la reformulation du problème ([01](01-contexte-et-probleme.md))
-- [ ] Compléter / corriger l'état de l'art ([02](02-solutions-existantes.md))
-- [ ] Choisir le langage pivot de départ ([03](03-approche.md))
-- [ ] Répondre aux questions ci-dessus
+- [ ] Valider le périmètre (sourds + non-parlants uniquement)
+- [ ] Choisir la voie et la langue des signes de départ
+- [ ] Définir un vocabulaire pilote et des scénarios
 - [ ] Ensuite : discussion technique

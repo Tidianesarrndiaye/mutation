@@ -56,3 +56,26 @@
 - Les jeux de données sont souvent construits sans signeurs natifs.
 
 Conséquence pour Mutation : se positionner comme un **outil d'aide à la communication** et non comme un remplaçant d'interprète, et valider avec les utilisateurs à chaque étape.
+
+## 6. Langages gestuels simplifiés ou inventés
+
+Question posée : existe-t-il déjà des langages plus simples, créés pour les sourds et les non-parlants ? Oui, plusieurs. Aucun n'a remplacé les langues des signes naturelles. **(à vérifier pour les détails)**
+
+| Système | Principe | Public visé | Limites |
+|---|---|---|---|
+| **Makaton** (Royaume-Uni, années 1970) | Vocabulaire réduit de signes + symboles + parole | Personnes avec troubles de la communication ou d'apprentissage | Vocabulaire limité, pas une langue complète, licence payante |
+| **Signalong**, **Paget Gorman Sign System** | Signes simplifiés qui suivent l'ordre des mots de la langue vocale | Enfants avec troubles du langage | Peu diffusés, peu adaptés à une conversation fluide |
+| **Français signé / Signed Exact English** | Un signe par mot, grammaire de la langue vocale | Éducation | Lourd et lent, critiqué par la communauté sourde |
+| **Langage Parlé Complété (LPC) / Cued Speech** (1966) | Positions de la main près du visage qui lèvent les ambiguïtés de la lecture labiale | Sourds oralisants | Suppose une langue vocale ; ne sert pas aux non-parlants |
+| **Gestuno / Langue des signes internationale** (1975) | Vocabulaire commun pour les rencontres internationales | Congrès, événements | Pas une langue native, usage ponctuel |
+| **Bliss, Rebus, ARASAAC** | Symboles graphiques, pas des gestes | Non-parlants (CAA) | Visuels et non gestuels |
+| **Systèmes de notation** : SignWriting (Sutton), HamNoSys | Écrire ou décrire les signes | Linguistes, éducation, animation d'avatars | Pas des langages de communication ; HamNoSys sert à piloter des avatars |
+
+Enseignements :
+
+- Les langages simplifiés restent **limités en vocabulaire** et dépendent d'un apprentissage préalable par les deux interlocuteurs.
+- Un nouveau langage n'est utile que s'il est **adopté par une communauté**. C'est le principal frein.
+
+## 7. Solutions d'interprétation IA des signes
+
+Cette voie est celle de la section 3 et 4 (SignAll, Hand Talk, Signapse, Sign.mt, recherche sur MediaPipe). Elle utilise des langues **déjà existantes** et ne demande aucun apprentissage supplémentaire. Ses limites sont les données et la précision (voir [03](03-approche.md)).
